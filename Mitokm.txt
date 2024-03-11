@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Mtkm {
+
+    public static void main(String [] args){
+
+        double mile_to_km, value;
+
+        mile_to_km = 1.60935 ; 
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter the value in miles");
+        value = scan.nextInt();
+
+        double kilometers;
+
+        kilometers = value * mile_to_km;
+
+        System.out.println(value +"miles = " + kilometers +" kilometers");
+        
+
+
+    }
+}

@@ -1,0 +1,33 @@
+public class Table{
+    public static void main(String[] args)
+    {
+        System.out.println("///////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+        System.out.println("==\tStudent Points\t\t"+"==");
+        System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\///////////////"+"\n");
+
+        System.out.println("Name\t\tLab\tBonus\tTotal");
+        System.out.println("----\t\t---\t-----\t-----");
+
+        int lab1 = 80;
+        int bonus1 = 4;
+        System.out.println("Aastha"+"\t\t"+lab1+"\t"+bonus1+"\t"+(lab1+bonus1));
+
+        int lab2 = 70;
+        int bonus2 = 5;
+        System.out.println("Aagya"+"\t\t"+lab2+"\t"+bonus2+"\t"+(lab2+bonus2));
+
+        int lab3 = 60;
+        int bonus3 = 4;
+        System.out.println("Hi"+"\t\t"+lab3+"\t"+bonus3+"\t"+(lab3+bonus3));
+        
+        int lab4 = 50;
+        int bonus4 = 3;
+        System.out.println("Damon"+"\t\t"+lab4+"\t"+bonus4+"\t"+(lab4+bonus4));
+        
+        int lab5 = 40;
+        int bonus5 = 10;
+        System.out.println("Ian"+"\t\t"+lab5+"\t"+bonus5+"\t"+(lab5+bonus5));
+
+
+    }
+}
